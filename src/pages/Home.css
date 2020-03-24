@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    color: #008a29
+}
+h2{
+    margin-top: 10px;
+    color: #818181;
+    font-size: 16px;
+}
+.container p{
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+    color: #818181;
+}
+.footer{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.ip{
+    height: 100%;
+    padding: 15px;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    text-align: center;
+}
+.logout-button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    transition: .2s;
+}
+.logout-button:hover{
+    box-shadow: 3px 3px #00000028;
+}
+.logout-button a{
+    color: #fd2020;
+}

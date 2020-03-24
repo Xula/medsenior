@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import './Login.css'
+import './Register.css'
 import logo from '../assets/medsenior.png'
-import { FaEye } from 'react-icons/fa'
 
 export default function Register(){
 
@@ -18,14 +17,14 @@ export default function Register(){
 
     return (
         <div className="register-container">
-            <form onSubmit={handleSubmit}>
-                <img src={logo} alt="logo"></img>
-                <p>Novo registro</p>
+            <img src={logo} alt="logo" className="logo"></img>
+            <form onSubmit={handleSubmit} className="register-form">
+                <h1>Novo registro</h1>
                 <input type="email" placeholder="Email"></input>
                 <input type={hidden ? 'password' : 'text'} placeholder="Senha"></input>
-                <button onClick={togglePassword}><FaEye /></button>
                 <input type="password" placeholder="Confirmar senha"></input>
-                <button>Registrar-se</button>
+                <button onClick={togglePassword} className="showHide">Mostrar/Esconder senha</button>
+                <button className="register-button">Registrar-se</button>
             </form>
         </div>
     )

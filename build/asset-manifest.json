@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.619254b8.chunk.css",
+    "main.js": "/static/js/main.bb7b0858.chunk.js",
+    "main.js.map": "/static/js/main.bb7b0858.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.933f0315.js",
+    "runtime-main.js.map": "/static/js/runtime-main.933f0315.js.map",
+    "static/js/2.0ba5ba63.chunk.js": "/static/js/2.0ba5ba63.chunk.js",
+    "static/js/2.0ba5ba63.chunk.js.map": "/static/js/2.0ba5ba63.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3923cf4b8956658fa7b50e68954e34df.js": "/precache-manifest.3923cf4b8956658fa7b50e68954e34df.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.619254b8.chunk.css.map": "/static/css/main.619254b8.chunk.css.map",
+    "static/js/2.0ba5ba63.chunk.js.LICENSE.txt": "/static/js/2.0ba5ba63.chunk.js.LICENSE.txt",
+    "static/media/medsenior.png": "/static/media/medsenior.b8f5b770.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.933f0315.js",
+    "static/js/2.0ba5ba63.chunk.js",
+    "static/css/main.619254b8.chunk.css",
+    "static/js/main.bb7b0858.chunk.js"
+  ]
+}

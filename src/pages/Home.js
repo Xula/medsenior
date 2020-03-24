@@ -9,10 +9,9 @@ export default function Home(){
 
     useEffect(() => {
         async function getIP(){
-            let res = await axios.get('http://meuip.com/api/meuip.php');
-            let ip = res.data;
-            setIp(ip);
-            console.log(ip);
+            let res = await axios.get('https://api.ipify.org/?format=json');
+            console.log(res.data.ip)
+            setIp(res.data.ip)
         }
         getIP();
     }, []);

@@ -8,6 +8,7 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Route path="/" component={Login} exact></Route>
+            <Route path="/login" component={Login} exact></Route>
             <Route path="/register" component={Register}></Route>
             <Route path="/home" component={Home}></Route>
         </BrowserRouter>

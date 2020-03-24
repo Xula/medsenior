@@ -70,3 +70,16 @@ a{
 .register-button:hover{
     background-color: #00b637;
 }
+.errors{
+    color: #ce4545;
+    background-color: #ffb3b3;
+    width: 20%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #ce4545;
+    border-radius: 5px;
+}
